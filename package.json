@@ -1,0 +1,47 @@
+{
+  "name": "sitemap-url-health-check",
+  "version": "0.1.0",
+  "description": "Check every URL in your XML sitemap for 404s, 5xx errors, redirect chains, https downgrades and noindex headers. CLI for the Apify Actor lineagersiui/sitemap-url-health-checker; exits non-zero for CI.",
+  "license": "MIT",
+  "author": "lineagersiui-boop (https://github.com/lineagersiui-boop)",
+  "homepage": "https://github.com/lineagersiui-boop/sitemap-url-health-check-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lineagersiui-boop/sitemap-url-health-check-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lineagersiui-boop/sitemap-url-health-check-cli/issues"
+  },
+  "keywords": [
+    "sitemap",
+    "sitemap-checker",
+    "broken-links",
+    "404",
+    "http-status",
+    "redirects",
+    "redirect-chain",
+    "noindex",
+    "technical-seo",
+    "seo-audit",
+    "site-migration",
+    "ci",
+    "cli",
+    "apify"
+  ],
+  "bin": {
+    "sitemap-url-health-check": "bin/cli.js"
+  },
+  "main": "lib/evaluate.js",
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
